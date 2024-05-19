@@ -1,8 +1,37 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# KT-TKMP frontend
+Giao diện website cho hệ thống đăng ký học phần
 
-Currently, two official plugins are available:
+## Chức năng
+- Đăng nhập
+- Xem thông tin cá nhân
+- Xem điểm
+- Xem lịch học
+- Xem chương trình khung
+- Đăng ký học phần
+- Hủy đăng ký học phần
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Công nghệ
+- ReactJS
+- MaterialTailwind CSS
+- Vite
+- Axios
+
+## Hướng dẫn sử dụng
+1. Clone the repo
+``` bash
+git clone https://github.com/Genzi135/kt-tkpm-client.git
+```
+
+2. Install dependencies
+``` bash
+npm install
+```
+
+3. Start the dev server
+``` bash
+npm run dev
+```
+
+
+  
