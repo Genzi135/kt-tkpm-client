@@ -33,5 +33,9 @@ npm install
 npm run dev
 ```
 
+### Đăng nhập
+mssv: 20076921
+password: ddryhqwert1
+
 
   
