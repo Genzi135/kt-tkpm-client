@@ -451,13 +451,13 @@ export default function CourseRegistration() {
                                 <label>Tên lớp học: {selectedClassDetail.className}</label>
                                 <label>Giảng viên: {selectedClassDetail.teacherName}</label>
                                 <label>Loại lớp học: {selectedClassDetail.classData.type}</label>
-                                <label>Lịch học lý thuyết: {selectedClassDetail.dayOfWeekPractice ? (
-                                    `Thứ ${selectedClassDetail.dayOfWeekPractice} Tiết: ${selectedClassDetail.periodStartPractice} - ${selectedClassDetail.periodEndPractice}`
+                                <label>Lịch học lý thuyết: {selectedClassDetail.classData.dayOfWeek ? (
+                                    `Thứ ${selectedClassDetail.classData.dayOfWeek} Tiết: ${selectedClassDetail.classData.periodStart} - ${selectedClassDetail.classData.periodEnd}`
                                 ) : (
                                     "Chưa có lịch"
                                 )}</label>
-                                <label>Lịch học thực hành: {selectedClassDetail.dayOfWeekPractice ? (
-                                    `Thứ ${selectedClassDetail.dayOfWeekPractice} Tiết: ${selectedClassDetail.periodStartPractice} - ${selectedClassDetail.periodEndPractice}`
+                                <label>Lịch học thực hành: {selectedClassDetail.classData.dayOfWeekPractice ? (
+                                    `Thứ ${selectedClassDetail.classData.dayOfWeekPractice} Tiết: ${selectedClassDetail.classData.periodStartPractice} - ${selectedClassDetail.classData.periodEndPractice}`
                                 ) : (
                                     "Chưa có lịch"
                                 )}</label>
