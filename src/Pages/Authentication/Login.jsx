@@ -71,21 +71,21 @@ export default function Login({ onRegisterClick }) {
                     <label>Mật khẩu</label>
                     <Input
                         type="password"
-                        label="Password"
+                        label="Mật khẩu"
                         value={password}
                         onChange={onPasswordChange}
                         error={!isPasswordValid}
                     />
                     <Typography className="text-red-500 text-sm">{report}</Typography>
                     <div className="flex justify-center items-center">
-                        <Button className="w-auto text-base" onClick={handleLogin}>LOGIN</Button>
+                        <Button className="w-auto text-base" onClick={handleLogin}>ĐĂNG NHẬP</Button>
                     </div>
                 </CardBody>
 
-                <div className="flex items-center gap-1 text-sm">
+                {/* <div className="flex items-center gap-1 text-sm">
                     <Typography>Bạn chưa có tài khoản? </Typography>
                     <Typography className="text-blue-500 font-semibold cursor-pointer" onClick={() => onRegisterClick('register')}> Đăng ký</Typography>
-                </div>
+                </div> */}
             </Card>
         </div>
     );

@@ -204,10 +204,12 @@ export default function CourseRegistration() {
     };
 
     const onDeleteEnrollmentClick = (classs) => {
-        if (classs) {
-            if (classs.classData.id) {
-                const id = classs.classData.id;
-                DeleteEnrollClassByIdClass(id);
+        if (confirm("Bạn có muốn hủy học phần này không?") === true) {
+            if (classs) {
+                if (classs.classData.id) {
+                    const id = classs.classData.id;
+                    DeleteEnrollClassByIdClass(id);
+                }
             }
         }
     }
